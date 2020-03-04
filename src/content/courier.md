@@ -4,6 +4,7 @@ date: "2019-05-04"
 title: "Courier App"
 client: "Courier"
 role: "UX/UI Designer"
+homeImage: "/img/home-courier.png"
 mainImage: "/img/courier-main.png"
 feat: false
 responsabilities: "User research, interviews, surveys and results, design sprint with the developers, personas, scenarios, user flows, usability testing, style guide, mid and high fidelity prototypes."

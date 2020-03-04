@@ -5,6 +5,7 @@ initDate: "2018-05-04"
 title: "TCP Design System"
 client: "TCP"
 role: "UX/UI Designer"
+homeImage: "/img/home-tcp.png"
 mainImage: "/img/tcp-main.png"
 feat: true
 responsabilities: "User research, interviews, surveys and results, design sprint with the developers, personas, scenarios, user flows, usability testing, style guide, mid and high fidelity prototypes."

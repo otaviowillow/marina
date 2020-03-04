@@ -4,8 +4,10 @@ date: "2018-01-02"
 title: "Blue Park Mabu Website"
 client: "Mabu Thermas Grand Resort"
 role: "UX/UI Designer"
+homeImage: "/img/home-mabu.png"
 mainImage: "/img/mabu-main.png"
 feat: false
+summary: "Foz do Iguaçu, in Paraná, is one of the first most visited tourist destinations in Brazil. It has several tourist attractions such as the Iguaçu Falls, the Itaipu Hydroelectric Power Plant including the Triple Border, between Brazil, Paraguay and Argentina. Foz now also has the newest water park in southern Brazil."
 responsabilities: "Domain Research, Mind map, Sitemap, usability testing, style guide, mid and high fidelity prototypes."
 portfolio: [ "/img/mabu-portfolio-1.png", "/img/mabu-portfolio-2.png", "/img/mabu-portfolio-3.png" ]
 ---

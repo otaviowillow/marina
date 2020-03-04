@@ -4,6 +4,7 @@ date: "2018-01-01"
 title: "CadeParana"
 client: "Courier"
 role: "UX/UI Designer"
+homeImage: "/img/home-cadeparana.png"
 mainImage: "/img/courier-main.png"
 responsabilities: ""
 feat: false
