@@ -4,9 +4,9 @@ date: "2019-05-04"
 title: "Blue Park Mabu Website"
 client: "Mabu Thermas Grand Resort"
 role: "UX/UI Designer"
-mainImage: "/img/courier-main.png"
+mainImage: "/img/mabu-main.png"
 responsabilities: "Domain Research, Mind map, Sitemap, usability testing, style guide, mid and high fidelity prototypes."
-portfolio: [ "/img/courier-mockup-1.png", "/img/courier-mockup-2.png" ]
+portfolio: [ "/img/mabu-portfolio-1.png", "/img/mabu-portfolio-2.png", "/img/mabu-portfolio-3.png" ]
 ---
 
 ### About

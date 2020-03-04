@@ -1,9 +1,8 @@
 import React from "react"
+import { Link } from 'gatsby'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
-import { Link } from '../styles'
 
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -37,10 +36,10 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       {edges.map(({node}, i) => (
-        <div key={i}>
-          <h2><Link to={node.frontmatter.path}>{node.frontmatter.title}</Link></h2>
+        <Link to={node.frontmatter.path} key={i}>
+          <h2>{node.frontmatter.title}</h2>
           <img src={node.frontmatter.mainImage.publicURL} />
-        </div> 
+        </Link>
       ))}
     </Layout>
   )

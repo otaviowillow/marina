@@ -7,7 +7,6 @@ role: "UX/UI Designer"
 mainImage: "/img/tcp-main.png"
 responsabilities: "User research, interviews, surveys and results, design sprint with the developers, personas, scenarios, user flows, usability testing, style guide, mid and high fidelity prototypes."
 summary: "The Paranaguá Container Terminal (TCP) moves an average of 1240 containers per day. In 2018  there were 724 ships operating. The port has been modernized in recent years and most of the operations are now digital."
-portfolio: [ "/img/courier-mockup-1.png", "/img/courier-mockup-2.png" ]
 ---
 
 ### About
