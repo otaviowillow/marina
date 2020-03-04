@@ -5,4 +5,5 @@ export const GridItem = styled.div `
   display: ${({ flex }) => flex ? 'flex' : 'inline-block'};
   justify-content: ${({ justify }) => justify || 'flex-start'};
   align-items: ${({ align }) => align || 'flex-start'};
+  position: relative;
 `

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const H1 = styled.h1 `
-  color: ${({ theme, altColor }) => altColor ? theme.colors.brownishGrey : theme.colors.brownishGrey};
+  color: ${({ theme, altColor }) => altColor ? theme.colors.salmon : theme.colors.brownishGrey};
   font-family: mr-eaves-modern, sans-serif;
   font-size: 4rem;
   font-weight: normal;

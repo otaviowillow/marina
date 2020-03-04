@@ -1,12 +1,13 @@
 ---
-path: "/tcp-design-system"
+path: "/tcp-desgin-system"
 date: "2019-05-04"
 title: "TCP Design System"
 client: "TCP"
 role: "UX/UI Designer"
-mainImage: "../images/tcp.jpg"
+mainImage: "/img/tcp-main.png"
 responsabilities: "User research, interviews, surveys and results, design sprint with the developers, personas, scenarios, user flows, usability testing, style guide, mid and high fidelity prototypes."
-portfolio: [ "asd", "vcxv" ]
+summary: "The Paranaguá Container Terminal (TCP) moves an average of 1240 containers per day. In 2018  there were 724 ships operating. The port has been modernized in recent years and most of the operations are now digital."
+portfolio: [ "/img/courier-mockup-1.png", "/img/courier-mockup-2.png" ]
 ---
 
 ### About
@@ -32,11 +33,28 @@ The users didn’t receive any feedback about the processes and sometimes they h
 
 In this phase, I started to create the Personas to make all the processes easier to understand as a user.
 
-![enter image description here](https://brew.sh/assets/img/homebrew-256x256.png)
-![enter image description here](https://brew.sh/assets/img/homebrew-256x256.png)
-![enter image description here](https://brew.sh/assets/img/homebrew-256x256.png)
-![enter image description here](https://brew.sh/assets/img/homebrew-256x256.png)
-![enter image description here](https://brew.sh/assets/img/homebrew-256x256.png)
-![enter image description here](https://brew.sh/assets/img/homebrew-256x256.png)
-![enter image description here](https://brew.sh/assets/img/homebrew-256x256.png)
-![enter image description here](https://brew.sh/assets/img/homebrew-256x256.png)
+![enter image description here](/img/tcp-1.png)
+![enter image description here](/img/tcp-2.png)
+![enter image description here](/img/tcp-3.png)
+![enter image description here](/img/tcp-4.png)
+
+I’ve built the user flows for each permission profile to help the developers to see the relationship between the screens, create the components and get the overall complexity of the system.
+
+![enter image description here](/img/tcp-graph-1.png)
+![enter image description here](/img/tcp-graph-2.png)
+![enter image description here](/img/tcp-graph-3.png)
+![enter image description here](/img/tcp-graph-4.png)
+
+### Design Sprint
+
+![enter image description here](/img/tcp-inside-1.png)
+![enter image description here](/img/tcp-inside-2.png)
+![enter image description here](/img/tcp-inside-3.png)
+![enter image description here](/img/tcp-inside-4.png)
+
+### User testing and Design
+
+After the part of research and planning, I started to do the wireframes and de mid-fi prototypes. We selected six companies to start to test our beta version of the system.
+Subsequently the period of tests and improvements (3 months), we delivered the first version of the new feature with new style guide.
+
+[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
