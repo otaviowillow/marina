@@ -10,7 +10,7 @@ export const reset = css `
     box-sizing: inherit;
   }
 
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure {
     margin: 0;
     padding: 0;
     font-weight: normal;
@@ -23,6 +23,15 @@ export const reset = css `
   img {
     max-width: 100%;
     height: auto;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    &:hover,
+    &:visited {
+      color: inherit;
+    }
   }
 `
 

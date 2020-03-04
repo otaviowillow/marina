@@ -1,48 +1,22 @@
 import React from "react"
-import { Link } from 'gatsby'
 
 import Layout from "../components/layout"
+import Posts from "../components/posts"
 import SEO from "../components/seo"
 
-import { useStaticQuery, graphql } from "gatsby"
+import { Grid, GridItem, H1, H2 } from '../styles'
 
-const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-    query HomeQuery {
-      allMarkdownRemark {
-        edges {
-          node {
-            frontmatter {
-              title
-              path
-              mainImage {
-                publicURL
-                childImageSharp {
-                  fluid(maxWidth: 2048, quality: 100) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  `)
-  const { allMarkdownRemark } = data
-  const { edges } = allMarkdownRemark
-
-  return (
-    <Layout>
-      <SEO title="Home" />
-      {edges.map(({node}, i) => (
-        <Link to={node.frontmatter.path} key={i}>
-          <h2>{node.frontmatter.title}</h2>
-          <img src={node.frontmatter.mainImage.publicURL} />
-        </Link>
-      ))}
-    </Layout>
-  )
-}
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Home" />
+    <Grid>
+      <GridItem column='3/10'>
+        <H1><strong>Hello,</strong> my name is Marina Braholka and I am a UX/UI designer based in Vancouver, BC.</H1>
+        <H2>I have previously worked in big agencies, mid-sized companies and for the last year in a big company called TCP, they are the second biggest seaport in Brazil. I am highly skilled in creating user flows, user journeys, architecture information, personas, wireframes, prototypes and style guides.</H2>
+      </GridItem>
+      <Posts />
+    </Grid>
+  </Layout>
+)
 
 export default IndexPage

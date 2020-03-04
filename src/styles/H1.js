@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const H1 = styled.h1 `
   color: ${({ theme, altColor }) => altColor ? theme.colors.salmon : theme.colors.brownishGrey};
+  padding: ${({ padding }) => padding || '4rem 0'};
   font-family: mr-eaves-modern, sans-serif;
   font-size: 4rem;
   font-weight: normal;
@@ -9,4 +10,8 @@ export const H1 = styled.h1 `
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  strong {
+    color: ${({ theme, altColor }) => altColor ? theme.colors.brownishGrey : theme.colors.salmon};
+    font-weight: normal;
+  }
 `

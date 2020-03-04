@@ -1,10 +1,11 @@
 ---
 path: "/blue-park-mabu-website"
-date: "2019-05-04"
+date: "2018-01-02"
 title: "Blue Park Mabu Website"
 client: "Mabu Thermas Grand Resort"
 role: "UX/UI Designer"
 mainImage: "/img/mabu-main.png"
+feat: false
 responsabilities: "Domain Research, Mind map, Sitemap, usability testing, style guide, mid and high fidelity prototypes."
 portfolio: [ "/img/mabu-portfolio-1.png", "/img/mabu-portfolio-2.png", "/img/mabu-portfolio-3.png" ]
 ---

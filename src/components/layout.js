@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 
 import { ThemeProvider } from 'styled-components'
 import { mainTheme, Reset, FixedSquare } from '../styles'
@@ -25,6 +26,7 @@ const Layout = ({ children }) => {
         <FixedSquare />
         {children}
       </>
+      <Footer />
     </ThemeProvider>
   )
 }
