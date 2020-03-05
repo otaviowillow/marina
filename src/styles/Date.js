@@ -6,5 +6,8 @@ export const Date = styled.time `
   font-family: mr-eaves-modern, sans-serif;
   font-size: 2.1875rem;
   font-weight: normal;
-  padding: 4rem 0 1rem 0;
+  padding: 1rem 0 1rem 0;
+  @media (min-width: 900px) {
+    padding: 4rem 0 1rem 0;
+  }
 `

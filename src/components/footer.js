@@ -8,10 +8,10 @@ import IconLinkedin from '../img/icon-linkedin.svg'
 import { TextDecoration, Grid, GridItem, Container, H2, Li } from '../styles'
 
 const Footer = () => (
-  <Container>
+  <Container id='contact' style={{ overflow: 'hidden' }}>
     <Grid as='footer'>
       <GridItem column='1/12' flex  justify='center' align='center'>
-        <H2>Feel free to contact me in my social medias</H2>
+        <H2 style={{ textAlign:'center' }}>Feel free to contact me in my social medias</H2>
       </GridItem>
 
       <GridItem as='ul' column='1/12' flex  justify='center' align='center'>
@@ -20,7 +20,7 @@ const Footer = () => (
         <Li><IconLinkedin /></Li>
       </GridItem>
     </Grid>
-    <TextDecoration bottom='  20px' left='0'>contact</TextDecoration>
+    <TextDecoration bottom='120px' left='0'>contact</TextDecoration>
   </Container>
 )
 

@@ -14,19 +14,19 @@ export default function Template({ data }) {
   return (
     <Layout>
       <Grid>
-        <GridItem as='header' column='3 / 8'>
+        <GridItem as='header' column='3/8'  mobileColumn='1/13'>
           <H1 altColor>{frontmatter.title}</H1>
           <H3>Details</H3>
           <P fullWidth><strong>Client:</strong> {frontmatter.client}</P>
           <P fullWidth><strong>Role:</strong> {frontmatter.role}</P>
           <P fullWidth><strong>Responsabilities:</strong> {frontmatter.responsabilities}</P>
         </GridItem>
-        <GridItem column='9 / 13'>
+        <GridItem column='9/13'  mobileColumn='1/13'>
           {frontmatter.mainImage ? <img src={imageSrc(frontmatter.mainImage)} alt='' /> : null}
         </GridItem>
-        <div style={{ gridColumn: '3 / 13' }}>
+        <GridItem as='header' column='3/13'  mobileColumn='1/13'>
           <MarkdownParser content={htmlAst} />  
-        </div>
+        </GridItem>
       </Grid>
       <ul style={{ textAlign: 'center' }}>
         {frontmatter.portfolio && frontmatter.portfolio.map((port, i) => (

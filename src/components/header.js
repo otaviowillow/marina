@@ -13,10 +13,10 @@ const Header = () => (
       </Link>
     </GridItem>
 
-    <GridItem as='nav' column='10/13' flex justify='space-between' align='center'>
+    <GridItem as='nav' mobileColumn='4/13' column='10/13' flex justify='space-between' align='center'>
       <H4><Link to ='/about'>About</Link></H4>
-      <H4><Link to ='/work'>Work</Link></H4>
-      <H4><Link to ='/contact'>Contact</Link></H4>
+      <H4><Link to ='/#work'>Work</Link></H4>
+      <H4><Link to ='/#contact'>Contact</Link></H4>
     </GridItem>
   </Grid>
 )
