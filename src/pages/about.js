@@ -10,9 +10,9 @@ import PortfolioLink from '../components/portfolioLink.js'
 const About = () => (
   <Layout>
     <SEO title="About" />
-    <Grid>
+    <Grid style={{ marginBottom: '50px' }}>
       <GridItem column='3/9' mobileColumn='1/13'>
-        <H1 altColor>Hello,</H1>
+        <H1 padding='0' altColor>Hello,</H1>
         <P>My name is Marina Braholka, I am a UX/UI designer originally from Brazil. I graduated in 2014 in Graphic Design at the Federal University of Technology of Parana. I was working, since 2009, in advertising agencies and mid-size companies, I was unsatisfied about it because I didn’t want to work with commercials or offline projects like billboards, magazines or flyers because, unfortunately, I think these kinds of media will eventually die off.</P>
         <P>In 2016, a friend of mine, back from England after studying user experience design, showed it to me,  and then I discovered the magic of user experience design and I fell in love with it, so I decided to change my career. </P>
         <P>In 2017, I went to Vancouver for vacation and I absolutely loved the city, and studying abroad was always my big dream. After the vacation, I started to search for a college or course about UX and UI, and I found Red Academy, where I am now pursuing a UX diploma.</P>
@@ -21,7 +21,7 @@ const About = () => (
         <P>I am highly skilled in creating user flows, user journeys, architecture information, personas, wireframes, prototypes and style guides.</P>
         <P>My toolset includes Sketch, Adobe XD, Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Lightroom, Invision App, Figma, Marvel App, UXPIN, Axure RP, and proto.io.</P></P>
       </GridItem>
-      <GridItem column='5/13'>
+      <GridItem column='9/13' mobileColumn='5/13'>
         <Img src='../img/mazinha.png' alt='' />
         <PortfolioLink />
       </GridItem>

@@ -53,7 +53,7 @@ const Posts = () => {
       <>
         <GridItem id={i === 0 && 'work'} as='figure' column='1/7' mobileColumn='1/13' flex justify='flex-start'>
           <Link to={node.frontmatter.path}>
-            <img src={node.frontmatter.homeImage.publicURL} alt='' />
+            {node.frontmatter.homeImage ? <img src={node.frontmatter.homeImage.publicURL} alt='' /> : null}
           </Link>
         </GridItem>
         <GridItem as='aside' column='7/13' mobileColumn='1/13'>

@@ -1,7 +1,6 @@
 
 import React from "react"
 
-import IconBehance from '../img/icon-behance.svg'
 import IconDribble from '../img/icon-dribble.svg'
 import IconLinkedin from '../img/icon-linkedin.svg'
 
@@ -15,9 +14,8 @@ const Footer = () => (
       </GridItem>
 
       <GridItem as='ul' column='1/12' flex  justify='center' align='center'>
-        <Li><IconBehance /></Li>
-        <Li><IconDribble /></Li>
-        <Li><IconLinkedin /></Li>
+        <Li><a href='https://dribbble.com/mabrhlk' target='_blank' rel="noopener noreferrer"><IconDribble /></a></Li>
+        <Li><a href='https://www.linkedin.com/in/marinabraholka' target='_blank' rel="noopener noreferrer"><IconLinkedin /></a></Li>
       </GridItem>
     </Grid>
     <TextDecoration bottom='120px' left='0'>contact</TextDecoration>

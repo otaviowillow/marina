@@ -1,9 +1,10 @@
 import React from 'react'
 
-import { Link, P } from '../styles'
+import { A, P } from '../styles'
 
 import ArrowRight from '../img/arrow-right.svg'
+import CV from '../img/marina_resume.pdf'
 
-const ViewProjectLink = ({ to }) => <P altColor><Link to={to}>See resume <ArrowRight /></Link></P>
+const ViewProjectLink = () => <P altColor><A href={CV}>See resume <ArrowRight /></A></P>
 
 export default ViewProjectLink
