@@ -9,7 +9,7 @@ import { Grid, GridItem, H1, H2 } from '../styles'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="brhlk" />
     <Grid>
       <GridItem column='3/10' mobileColumn='1/13'>
         <H1><strong>Hello,</strong> my name is Marina Braholka and I am a UX/UI designer based in Vancouver, BC.</H1>

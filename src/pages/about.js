@@ -9,7 +9,7 @@ import PortfolioLink from '../components/portfolioLink.js'
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="brhlk | About" />
     <Grid style={{ marginBottom: '50px' }}>
       <GridItem column='3/9' mobileColumn='1/13'>
         <H1 padding='0' altColor>Hello,</H1>
