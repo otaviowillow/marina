@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from '../components/layout'
 
-import { MarkdownParser, Grid, GridItem, H1, H3, P, Img } from '../styles'
+import { MarkdownParser, Grid, GridItem, H1, H3, P, Img, MarkdownWrapper } from '../styles'
 
 export default function Template({ data }) {
   const { markdownRemark } = data
@@ -14,7 +14,7 @@ export default function Template({ data }) {
   return (
     <Layout>
       <Grid>
-        <GridItem as='header' column='3/8'  mobileColumn='1/13'>
+        <GridItem as='header' column='1/8'  mobileColumn='1/13'>
           <H1 altColor>{frontmatter.title}</H1>
           <H3>Details</H3>
           <P fullWidth><strong>Client:</strong> {frontmatter.client}</P>
@@ -24,9 +24,9 @@ export default function Template({ data }) {
         <GridItem column='9/13'  mobileColumn='1/13'>
           {frontmatter.mainImage ? <img src={imageSrc(frontmatter.mainImage)} alt='' /> : null}
         </GridItem>
-        <GridItem as='header' column='3/13'  mobileColumn='1/13'>
+        <MarkdownWrapper column='1/13'  mobileColumn='1/13'>
           <MarkdownParser content={htmlAst} />  
-        </GridItem>
+        </MarkdownWrapper>
       </Grid>
       <ul style={{ textAlign: 'center' }}>
         {frontmatter.portfolio && frontmatter.portfolio.map((port, i) => (

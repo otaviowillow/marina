@@ -9,7 +9,7 @@ export const P = styled.p `
   line-height: 1.5;
   width: 100%;
   a, &:visited {
-    color: ${({ theme }) => theme.colors.salmon};
+    color: ${({ theme }) => theme.colors.salmon} !important;
   }
   svg {
     vertical-align: middle;
