@@ -21,6 +21,7 @@ CADÊ Paraná, developed by the Marista Center of the Defense of Childhood, is a
 My first step in this project was reading all the information the client gave to me, such as domain research, persona, interviews and user journeys. Afterward, I started to build the sitemap and wireframes.
 
 ![enter image description here](/img/cadeparana-1.png)
+
 ![enter image description here](/img/cadeparana-2.png)
 ![enter image description here](/img/cadeparana-3.png)
 ![enter image description here](/img/cadeparana-4.png)

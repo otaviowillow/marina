@@ -35,14 +35,15 @@ The users didn’t receive any feedback about the processes and sometimes they h
 
 In this phase, I started to create the Personas to make all the processes easier to understand as a user.
 
-![enter image description here](/img/tcp-1.png)
-![enter image description here](/img/tcp-2.png)
-![enter image description here](/img/tcp-3.png)
-![enter image description here](/img/tcp-4.png)
+[![Compost 2](/img/tcp-1.png)](/img/tcp-1-large.png)
+[![Compost 2](/img/tcp-2.png)](/img/tcp-2-large.png)
+[![Compost 2](/img/tcp-3.png)](/img/tcp-3-large.png)
+[![Compost 2](/img/tcp-4.png)](/img/tcp-4-large.png)
+
 
 I’ve built the user flows for each permission profile to help the developers to see the relationship between the screens, create the components and get the overall complexity of the system.
 
-![enter image description here](/img/tcp-graph-1.png)
+[![Compost 2](/img/tcp-graph-1.png)](/img/tcp-graph-1-large.png)
 ![enter image description here](/img/tcp-graph-2.png)
 ![enter image description here](/img/tcp-graph-3.png)
 ![enter image description here](/img/tcp-graph-4.png)
@@ -53,6 +54,11 @@ I’ve built the user flows for each permission profile to help the developers t
 ![enter image description here](/img/tcp-inside-2.png)
 ![enter image description here](/img/tcp-inside-3.png)
 ![enter image description here](/img/tcp-inside-4.png)
+
+[![Compost 2](/img/tcp-inside-1.png)](/img/tcp-inside-1-large.jpeg)
+[![Compost 2](/img/tcp-inside-2.png)](/img/tcp-inside-2-large.jpeg)
+[![Compost 2](/img/tcp-inside-3.png)](/img/tcp-inside-3-large.jpeg)
+[![Compost 2](/img/tcp-inside-4.png)](/img/tcp-inside-4-large.jpeg)
 
 ### User testing and Design
 

@@ -29,8 +29,8 @@ I started the project looking for the competitors and doing the benchmarking of 
 
 In this phase, I started to plan the project with a mind map to visually organize the information. With all these information I created the sitemap.
 
-![enter image description here](/img/mabu-mindflow.png)
-![enter image description here](/img/mabu-map.png)
+[![Compost 2](/img/mabu-mindflow.png)](/img/mabu-mindflow-large.png)
+[![Compost 2](/img/mabu-map.png)](/img/mabu-map-large.png)
 
 ### Design
 

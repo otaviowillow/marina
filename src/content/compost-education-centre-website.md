@@ -61,10 +61,10 @@ Simultaneously with the interviews and domain research we deployed a survey for 
 
 In this second part of the project, with all the information in hand, we initiated to make our persona, user journey map, information architecture, and user flow to comprehend how the website should behave.
 
-![enter image description here](/img/compost-2.png)
-![enter image description here](/img/compost-3.png)
-![enter image description here](/img/compost-4.png)
-![enter image description here](/img/compost-5.png)
+[![Compost 2](/img/compost-2.png)](/img/compost-2-large.png)
+[![Compost 2](/img/compost-3.png)](/img/compost-3-large.png)
+[![Compost 2](/img/compost-4.png)](/img/compost-4-large.png)
+[![Compost 2](/img/compost-5.png)](/img/compost-5-large.png)
 
 ### Design
 
