@@ -1,17 +1,19 @@
 import styled from 'styled-components'
+import { GridItem } from './GridItem'
 
-export const PhotoGallery = styled.div `
+export const PhotoGallery = styled(GridItem)`
   grid-column: 1/13;
-  h1 {
-    padding: 0;
+  flex-direction: column;
+  aside, main {
+    width: 100%;
   }
-  p {
-    display: inline-block;
+  main { 
+    padding: 20px;
   }
-  aside {
-    grid-column: 2/12;
+  @media (min-width: 900px) {
+    flex-direction: ${({ isEven }) => isEven ? 'row-reverse' : 'row'};
+    aside, main {
+    width: 50%;
   }
-  div {
-    display: grid;
   }
 `

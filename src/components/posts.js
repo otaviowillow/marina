@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from 'gatsby'
 
 import ViewProjectLink from "../components/viewProjectLink"
 
-import { GridItem, H1, P, Date } from '../styles'
+import { H1, P, Date, PhotoGallery } from '../styles'
 
 const Posts = () => {
   const data = useStaticQuery(graphql`
@@ -50,52 +50,21 @@ const Posts = () => {
 
   return (
     edges.map(({node}, i) => (
-      <>
-        <GridItem id={i === 0 && 'work'} as='figure' column='1/7' mobileColumn='1/13' flex justify='flex-start'>
+      <PhotoGallery column='1/13' flex isEven={i % 2}>
+        <main>
           <Link to={node.frontmatter.path}>
             {node.frontmatter.homeImage ? <img src={node.frontmatter.homeImage.publicURL} alt='' /> : null}
           </Link>
-        </GridItem>
-        <GridItem as='aside' column='7/13' mobileColumn='1/13'>
+        </main>
+        <aside>
           <Date>{node.frontmatter.date}</Date>
           <H1 padding='0'>{node.frontmatter.title}</H1>
           <P>{node.frontmatter.summary}</P>
           <ViewProjectLink to={node.frontmatter.path} />
-        </GridItem>
-      </>
+        </aside>
+      </PhotoGallery>
     ))
   )
-  // return (
-  //   edges.map(({node}, i) => i % 2 ? (
-      // <>
-      //   <GridItem as='figure' column='1/7' mobileColumn='1/13' flex justify='flex-start'>
-      //     <Link to={node.frontmatter.path}>
-      //       <img src={node.frontmatter.homeImage.publicURL} alt='' />
-      //     </Link>
-      //   </GridItem>
-      //   <GridItem as='aside' column='7/13' mobileColumn='1/13'>
-      //     <Date>{node.frontmatter.date}</Date>
-      //     <H1 padding='0'>{node.frontmatter.title}</H1>
-      //     <P>{node.frontmatter.summary}</P>
-      //     <ViewProjectLink to={node.frontmatter.path} />
-      //   </GridItem>
-      // </>
-  //   ) : (
-  //     <>
-  //       <GridItem as='aside' column='1/7' mobileColumn='1/13'>
-  //         <Date>{node.frontmatter.date}</Date>
-  //         <H1 padding='0'>{node.frontmatter.title}</H1>
-  //         <P>{node.frontmatter.summary}</P>
-  //         <ViewProjectLink to={node.frontmatter.path} />
-  //       </GridItem>
-  //       <GridItem as='figure' column='7/13' mobileColumn='1/13' flex justify='flex-end'>
-  //         <Link to={node.frontmatter.path}>
-  //           <img src={node.frontmatter.homeImage.publicURL} alt='' />
-  //         </Link>
-  //       </GridItem>
-  //     </>
-  //   ))
-  // )
 }
 
 export default Posts

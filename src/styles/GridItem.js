@@ -6,7 +6,9 @@ export const GridItem = styled.div `
   justify-content: ${({ justify }) => justify || 'flex-start'};
   align-items: ${({ align }) => align || 'flex-start'};
   position: relative;
+  grid-row: ${({ isEven, isGallery }) => isEven && isGallery ? '2' : 'inherit'};
   @media (min-width: 900px) {
     grid-column: ${({ desktopColumn, column }) => desktopColumn || column};
+
   }
 `
