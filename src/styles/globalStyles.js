@@ -23,6 +23,11 @@ export const reset = css `
   img {
     max-width: 100%;
     height: auto;
+    border: 0;
+    display: block;
+    float: left;
+    margin: 10px;
+    margin-left: 0;
   }
 
   a {

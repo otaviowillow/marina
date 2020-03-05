@@ -59,4 +59,10 @@ I’ve built the user flows for each permission profile to help the developers t
 After the part of research and planning, I started to do the wireframes and de mid-fi prototypes. We selected six companies to start to test our beta version of the system.
 Subsequently the period of tests and improvements (3 months), we delivered the first version of the new feature with new style guide.
 
-[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
+[![User Testing TCP- Search Feature Improvements](/img/vimeo-video.png)](https://vimeo.com/394276391 "User Testing TCP- Search Feature Improvements")
+
+![enter image description here](/img/tcp_screens01.png)
+
+![enter image description here](/img/styleguide-tcp.png)
+
+![enter image description here](/img/tcp_screens02.png)

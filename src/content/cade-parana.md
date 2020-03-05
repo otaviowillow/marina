@@ -2,22 +2,27 @@
 path: "/cade-parana"
 date: "2018-01-01"
 title: "CadeParana"
-client: "Courier"
+client: "Marista"
 role: "UX/UI Designer"
 homeImage: "/img/home-cadeparana.png"
-mainImage: "/img/courier-main.png"
-responsabilities: ""
+mainImage: "/img/cadeparana-main.png"
+responsabilities: "Sitemap, wireframes, usability testing, mid and high fidelity prototypes."
 feat: false
 summary: "CADÊ Paraná, developed by the Marista Center of the Defense of Childhood, is a platform that facilitates access to data and promotes actions of political influence with a focus on the rights of children and adolescents in the state of Paraná. It starts from the premise that the analysis of information is fundamental in the transformation of their living conditions."
-portfolio: [ "/img/courier-mockup-1.png", "/img/courier-mockup-2.png" ]
+portfolio: [ "/img/cadaparana-portfolio-1.png", "/img/cadaparana-portfolio-2.png" ]
 ---
 
 ### About
 
-Courier is an app that tries to connect people that interacted somehow, for a brief period of time, and didn’t have the chance to actually meet.
+CADÊ Paraná, developed by the Marista Center of the Defense of Childhood, is a platform that facilitates access to data and promotes actions of political influence with a focus on the rights of children and adolescents in the state of Paraná. It starts from the premise that the analysis of information is fundamental in the transformation of their living conditions.
 
 ### Planning
 
-Courier is an app that tries to connect people that interacted somehow, for a brief period of time, and didn’t have the chance to actually meet.
+My first step in this project was reading all the information the client gave to me, such as domain research, persona, interviews and user journeys. Afterward, I started to build the sitemap and wireframes.
 
-![enter image description here](/img/courier-flow.png)
+![enter image description here](/img/cadeparana-1.png)
+![enter image description here](/img/cadeparana-2.png)
+![enter image description here](/img/cadeparana-3.png)
+![enter image description here](/img/cadeparana-4.png)
+
+![enter image description here](/img/styleguide-cadeparana.png)

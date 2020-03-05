@@ -36,12 +36,12 @@ In this phase, I started to plan the project with a mind map to visually organiz
 
 Finally, after collecting all the necessary information, I started to create the wireframes.
 
-![enter image description here](/img/mabu-ux-home.png.png)
-![enter image description here](/img/mabu-ux-home-mobile.png.png)
+![enter image description here](/img/mabu-ux-home.png)
+![enter image description here](/img/mabu-ux-home-mobile.png)
 
 ### Style Guide
 
-![enter image description here](/img/aquatica.png)
+![enter image description here](/img/styleguide.png)
 
 ### UI
 
