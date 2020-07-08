@@ -8,4 +8,5 @@ export const A = styled.a `
   font-style: normal;
   letter-spacing: normal;
   text-decoration: none;
+  border: 1px solid red;
 `
