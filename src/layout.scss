@@ -12,6 +12,11 @@
   li {
     display: inline-block;
     padding-right: 50px;
+    h4 {
+      @media only screen and (max-width: 620px) {
+        font-size: var(--font-size-27);
+      }
+    }
     a {
       color: var(--ffffff);
       &.active {
@@ -58,11 +63,10 @@
       content: "";
       float: right;
       background: var(--ffffff);
-      display: block;
+      display: none;
       width: 260px;
       height: 5px;
       margin: 70px -20px 0 0;
-      
     }
     @media only screen and (max-width: 620px) {
       display: none;
@@ -71,6 +75,9 @@
       left: 0;
       height: 30px;
       z-index: 10;
+      &:after {
+        display: block;
+      }
       &.show-menu {
         display: inline-block;
       }

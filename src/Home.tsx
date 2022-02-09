@@ -47,13 +47,13 @@ export const Home = () => {
               <p>_Platform</p>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to={"/my-work/zipgo"} className="content">
               <h2>Zipgo</h2>
               <span>→</span>
               <p>_App</p>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </aside>
     </div>

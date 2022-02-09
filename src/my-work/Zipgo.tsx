@@ -1,3 +1,4 @@
+import ArrowBack from '../ArrowBack'
 import project_zipgo01 from '../public/zipgo/project-zipgo01.png'
 import project_zipgo02 from '../public/zipgo/project-zipgo02.png'
 
@@ -14,6 +15,7 @@ export const Zipgo = () => (
     </main>
     <img src={project_zipgo01} />
     <img src={project_zipgo02} />
+    <ArrowBack />
   </div>
 )
 

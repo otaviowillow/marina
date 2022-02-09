@@ -1,3 +1,4 @@
+import ArrowBack from '../ArrowBack'
 import project_yandeh01 from '../public/Courier/project_courier01.jpg'
 import project_yandeh02 from '../public/Courier/project_courier02.jpg'
 import project_yandeh03 from '../public/Courier/project_courier03.png'
@@ -23,6 +24,7 @@ export const Courier = () => (
     </main>
     <img src={project_yandeh02} />
     <img src={project_yandeh03} />
+    <ArrowBack />
   </div>
 )
 

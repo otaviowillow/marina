@@ -1,3 +1,4 @@
+import ArrowBack from '../ArrowBack'
 import project_TCP01 from '../public/tcp/project_TCP01.png'
 import project_TCP02 from '../public/tcp/project_TCP02.png'
 import project_TCP03 from '../public/tcp/project_TCP03.png'
@@ -6,6 +7,7 @@ import project_TCP05 from '../public/tcp/project_TCP05.png'
 import project_TCP06 from '../public/tcp/project_TCP06.png'
 import project_TCP07 from '../public/tcp/project_TCP07.png'
 import project_TCP08 from '../public/tcp/project_TCP08.png'
+import project_TCP09 from '../public/tcp/project_TCP09.png'
 
 export const Tcp = () => (
   <div className='work'>
@@ -47,6 +49,8 @@ export const Tcp = () => (
       <h4>Style Guide</h4>
     </main>
     <img src={project_TCP08} />
+    <img src={project_TCP09} />
+    <ArrowBack />
   </div>
 )
 

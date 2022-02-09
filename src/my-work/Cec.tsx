@@ -1,3 +1,4 @@
+import ArrowBack from '../ArrowBack'
 import project_Compost01 from '../public/compost/project_Compost01.png'
 import project_Compost02 from '../public/compost/project_Compost02.png'
 import project_Compost03 from '../public/compost/project_Compost03.png'
@@ -53,6 +54,7 @@ export const Yandeh = () => (
       </div>
     </main>
     <img src={project_Compost07} />
+    <ArrowBack />
   </div>
 )
 
