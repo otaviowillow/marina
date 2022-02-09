@@ -1,0 +1,110 @@
+@import url("./variables.scss");
+
+@function stroke($stroke, $color) {
+  $shadow: ();
+  $from: $stroke*-1;
+  @for $i from $from through $stroke {
+  @for $j from $from through $stroke {
+      $shadow: append($shadow, $i*1px $j*1px 0 $color, comma);
+    }
+  }
+  @return $shadow;
+}
+
+@mixin stroke($stroke, $color) {
+  text-shadow: stroke($stroke, $color);
+}
+
+.home {
+  width: 100vw;
+  main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    padding: 0 5%;
+    h1 {
+      &:after {
+        content: "";
+        float: right;
+        background: var(--ffffff);
+        display: block;
+        width: 360px;
+        height: 12px;
+        margin-top: 20px;
+        @media only screen and (max-width: 620px) {
+          position: absolute;
+          bottom: 150px;
+          right: 0;
+          height: 5px;
+          width: 250px;
+        }
+      }
+    }
+  }
+  ul {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    li {
+      margin-bottom: 100px;
+    }
+    .content {
+      position: relative;
+      display: inline-block;
+      &:hover {
+        span,
+        p {
+          opacity: 1;
+          transition: .3s all;
+        }
+      }
+    }
+    span {
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 110%;
+      height: 0px;
+      line-height: 0px;
+      font-size: var(--font-size-50);
+      color: white;
+      opacity: 0;
+    }
+    p {
+      display: inline-block;
+      position: absolute;
+      top: 85%;
+      right: 0;
+      text-transform: uppercase;
+      width: 50vw;
+      text-align: right;
+      opacity: 0;
+    }
+    h2 {
+      @include stroke(3, var(--5463ee));
+      color: var(--000000);
+      transition: 0.3s all;
+      &:hover {
+        @include stroke(3, var(--000000));
+        color: var(--5463ee);
+      }
+      @media only screen and (max-width: 620px) {
+        font-size: 2.2rem;
+        line-height: 4rem;
+      }
+    }
+  }
+  aside {
+    h4 {
+      color: var(--ffffff);
+      width: 100%;
+      text-align: center;
+      padding-bottom: 60px;
+    }
+  }
+}
+.margin-bottom {
+  margin-bottom: 50px;
+}

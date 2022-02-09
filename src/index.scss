@@ -1,0 +1,124 @@
+@import url("./variables.scss");
+
+html, body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--ffffff);
+}
+
+body {
+  background: var(--000000);
+}
+
+/* Character Styles */
+h1, h2, h3, h4, h5 {
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: var(--font-family-termina);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-900);
+  font-size: var(--font-size-90);
+  line-height: var(--line-spacing-100);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--ffffff);
+  text-transform: var(--text-transform-uppercase);
+  strong {
+    color: var(--5463ee);
+    font-weight: var(--font-weight-900);
+  }
+  a {
+    color: var(--ffffff);
+  }
+  @media only screen and (max-width: 620px) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+h2 {
+  font-family: var(--font-family-termina);
+  font-size: var(--font-size-90);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-900);
+  font-size: var(--font-size-90);
+  line-height: var(--line-spacing-100);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--ffffff);
+  text-transform: var(--text-transform-uppercase);
+  a {
+    color: var(--ffffff);
+  }
+}
+
+h3 {
+  font-family: var(--font-family-termina);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-30);
+  line-height: var(--line-spacing-45);
+  letter-spacing: var(--character-spacing-3);
+  color: var(--5563f2);
+  a {
+    color: var(--5563f2);
+  }
+}
+
+h4 {
+  font-family: var(--font-family-termina);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-40);
+  line-height: var(--line-spacing-100);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--5563f2);
+  text-transform: var(--text-transform-uppercase);
+  a {
+    color: var(--5563f2);
+  }
+}
+
+h5 {
+  font-family: var(--font-family-termina);
+  font-size: var(--font-size-25);
+  color: var(--ffffff);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-900);
+  line-height: var(--line-spacing-37-5);
+  letter-spacing: var(--character-spacing-0);
+  a {
+    color: var(--ffffff);
+  }
+}
+
+p {
+  font-family: var(--font-family-termina);
+  font-size: var(--font-size-25);
+  color: var(--ffffff);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-300);
+  line-height: var(--line-spacing-37-5);
+  letter-spacing: var(--character-spacing-0);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}

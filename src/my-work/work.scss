@@ -1,0 +1,95 @@
+.work {
+  h1 {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-150)/var(--unnamed-line-spacing-100) var(--unnamed-font-family-termina);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal 900 150px/100px Termina;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    @media only screen and (max-width: 620px) {
+      font: normal normal 900 2rem/2rem Termina;
+    }
+  }
+  h2 {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-50)/var(--unnamed-line-spacing-100) var(--unnamed-font-family-termina);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-5563f2);
+    text-align: left;
+    font: normal normal 900 50px/100px Termina;
+    letter-spacing: 0px;
+    color: #5563F2;
+    @media only screen and (max-width: 620px) {
+      font: normal normal 900 2rem/2rem Termina;
+    }
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 95vh;
+    h2 {
+      text-align: center;
+    }
+    p {
+      padding: 0 5%;
+    }
+    @media only screen and (max-width: 620px) {
+      text-align: left;
+      align-items: flex-start;
+      padding: 0 5%;
+      h1 {
+        font-size: 3rem;
+        padding-bottom: 24px;
+      }
+      h2 {
+        text-align: left;
+        padding: 0 0 5% 0;
+      }
+      p {
+        padding: 0;
+      }
+    }
+  }
+  main {
+    padding: 0 5%;
+    h3 {
+      padding: 0 0 25px 0;
+    }
+  }
+  div.images {
+    display: inline-block;
+    width: 100%;
+    &.centered {
+      width: 100%;
+      text-align: center;
+      * {
+        display: inline-block;
+      }
+    }
+    ul {
+      li {
+        display: inline-block;
+        margin: 12px;
+      }
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+  ul.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+      flex: 0 0 32%;
+      margin-bottom: 16px;
+      @media only screen and (max-width: 620px) {
+        flex: 0 0 100%;
+      }
+    }
+  }
+}

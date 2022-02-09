@@ -1,0 +1,50 @@
+.about {
+  padding: 20px 5% 0 5%;
+  h1, p {
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  h1 {
+    @media only screen and (max-width: 620px) {
+      font-size: 4rem;
+      margin-top: 60px;
+    }
+  }
+  .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    figure {
+      text-align: right;
+      max-width: 100%;
+      img {
+        display: inline-block;
+        max-width: 100%;
+      }
+      &:before {
+        display: none;
+      }
+      &:after {
+        content: "";
+        display: inline-block;
+        background: var(--ffffff);
+        width: 360px;
+        height: 12px;
+        margin-top: 70px;
+      }
+      @media only screen and (max-width: 620px) {
+        &:before {
+          content: "";
+          display: inline-block;
+          background: var(--ffffff);
+          width: 280px;
+          height: 5px;
+          margin: 0 -20px 70px 0;
+        }
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+}
