@@ -31,12 +31,11 @@ export const Yandeh = () => (
       <p className='margin-bottom'>To create a concise Design System, I based all the components on the Branding color, typography, shapes and spaces.</p>
     </main>
     <div className='images centered'>
-      <img src={project_yandeh01} />
-      <img src={project_yandeh02} />
+      <a href={project_yandeh01} target="_blank"><img src={project_yandeh01} /></a>
+      <a href={project_yandeh02} target="_blank"><img src={project_yandeh02} /></a>
       <ul>
-        <li><img src={project_yandeh03} /></li>
-        <li><img src={project_yandeh04} /></li>
-        <li><img src={project_yandeh04} /></li>
+        <li><a href={project_yandeh03} target="_blank"><img src={project_yandeh03} /></a></li>
+        <li><a href={project_yandeh04} target="_blank"><img src={project_yandeh04} /></a></li>
       </ul>
     </div>
     <ArrowBack />

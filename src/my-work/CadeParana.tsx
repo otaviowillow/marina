@@ -19,11 +19,11 @@ export const CadeParana = () => (
       <p className='margin-bottom'>CADÊ Paraná, developed by the Marista Center of the Defense of Childhood, is a platform that facilitates access to data and promotes actions of political influence with a focus on the rights of children and adolescents in the state of Paraná. It starts from the premise that the analysis of information is fundamental in the transformation of their living conditions.</p>
       <h4>Planning</h4>
       <p className='margin-bottom'>My first step in this project was reading all the information the client gave to me, such as domain research, persona, interviews and user journeys. Afterward, I started to build the sitemap and wireframes.</p>
-      <img src={cadeparana01} className='margin-bottom' />
+      <a href={cadeparana01} target="_blank" className='margin-bottom'><img src={cadeparana01} /></a>
       <ul className='images'>
-        <li><img src={cadeparana02} alt="" /></li>
-        <li><img src={cadeparana03} alt="" /></li>
-        <li><img src={cadeparana04} alt="" /></li>
+        <li><a href={cadeparana02} target="_blank"><img src={cadeparana02} /></a></li>
+        <li><a href={cadeparana03} target="_blank"><img src={cadeparana03} /></a></li>
+        <li><a href={cadeparana04} target="_blank"><img src={cadeparana04} /></a></li>
       </ul>
       <h4>Design</h4>
       <p className='margin-bottom'>In this phase I started to create the UI of the screens based in the colours, typography and the branding previously provided by the client.</p>

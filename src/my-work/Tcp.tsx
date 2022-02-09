@@ -31,12 +31,12 @@ export const Tcp = () => (
       <h4>Planning</h4>
       <p className='margin-bottom'>In this phase, I started to create the Personas to make all the processes easier to understand as a real user of the system. I also have built the user flows for each permission profile to help the developers to see the relationship between the screens, create the components, and get the overall complexity of the system.</p>
       <ul className='images'>
-        <li><img src={project_TCP01} /></li>
-        <li><img src={project_TCP02} /></li>
-        <li><img src={project_TCP03} /></li>
-        <li><img src={project_TCP04} /></li>
-        <li><img src={project_TCP05} /></li>
-        <li><img src={project_TCP06} /></li>
+        <li><a href={project_TCP01} target="_blank"><img src={project_TCP01} /></a></li>
+        <li><a href={project_TCP02} target="_blank"><img src={project_TCP02} /></a></li>
+        <li><a href={project_TCP03} target="_blank"><img src={project_TCP03} /></a></li>
+        <li><a href={project_TCP04} target="_blank"><img src={project_TCP04} /></a></li>
+        <li><a href={project_TCP05} target="_blank"><img src={project_TCP05} /></a></li>
+        <li><a href={project_TCP06} target="_blank"><img src={project_TCP06} /></a></li>
       </ul>
       <h4>User Testing</h4>
       <p className='margin-bottom'>After the part of research and planning, I started to do the wireframes and de mid-fi prototypes. We selected six companies to start to test our beta version of the system. Subsequently the period of tests and improvements (3 months), we delivered the first version of the new feature with a new style guide.</p>
@@ -48,8 +48,8 @@ export const Tcp = () => (
       </div>
       <h4>Style Guide</h4>
     </main>
-    <img src={project_TCP08} />
-    <img src={project_TCP09} />
+    <a href={project_TCP08} target="_blank"><img src={project_TCP08} /></a>
+    <a href={project_TCP09} target="_blank"><img src={project_TCP09} /></a>
     <ArrowBack />
   </div>
 )

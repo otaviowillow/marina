@@ -1,5 +1,8 @@
 .about {
-  padding: 20px 5% 0 5%;
+  padding: 140px 5% 0 5%;
+  @media only screen and (max-width: 620px) {
+    padding: 80px 5% 0 5%;
+  }
   h1, p {
     display: inline-block;
     margin-bottom: 30px;

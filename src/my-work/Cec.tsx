@@ -41,16 +41,16 @@ export const Yandeh = () => (
       <h4>Planning</h4>
       <p className='margin-bottom'>In this second part of the project, with all the information in hand, we initiated to make our persona, user journey map, information architecture, and user flow to comprehend how it should behave and help the developers to understand the overall website.</p>
       <ul className='images margin-bottom'>
-        <li><img src={project_Compost01} /></li>
-        <li><img src={project_Compost02} /></li>
-        <li><img src={project_Compost03} /></li>
-        <li><img src={project_Compost04} /></li>
+        <li><a href={project_Compost01} target="_blank"><img src={project_Compost01} /></a></li>
+        <li><a href={project_Compost02} target="_blank"><img src={project_Compost02} /></a></li>
+        <li><a href={project_Compost03} target="_blank"><img src={project_Compost03} /></a></li>
+        <li><a href={project_Compost04} target="_blank"><img src={project_Compost04} /></a></li>
       </ul>
       <h3>Design</h3>
       <p className='margin-bottom'>After the part of research and planning, following the gui test applied by de UI team, we start to do our mid-fidelity wireframes.</p>
       <div className='images centered margin-bottom'>
-        <img src={project_Compost05} />
-        <img src={project_Compost06} />
+        <a href={project_Compost05} target="_blank"><img src={project_Compost05} /></a>
+        <a href={project_Compost06} target="_blank"><img src={project_Compost06} /></a>
       </div>
     </main>
     <img src={project_Compost07} />
