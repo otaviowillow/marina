@@ -36,7 +36,7 @@ export const Yandeh = () => (
         <li><p>Two age groups: Retired elderlies, and Mid 20s</p></li>
         <li><p>Reason for visiting the website: Workshop, Composting information.</p></li>
       </ul>
-      <h5>Survey for CEC Website Users</h5>
+      <h5>Survey with CEC Website Users</h5>
       <p className='margin-bottom'>Simultaneously with the interviews and domain research, we deployed a survey for the real website users, to understand why and how they were using it, and try to get insights and pain points.</p>
       <h4>Planning</h4>
       <p className='margin-bottom'>In this second part of the project, with all the information in hand, we initiated to make our persona, user journey map, information architecture, and user flow to comprehend how it should behave and help the developers to understand the overall website.</p>
@@ -46,7 +46,7 @@ export const Yandeh = () => (
         <li><a href={project_Compost03} target="_blank"><img src={project_Compost03} /></a></li>
         <li><a href={project_Compost04} target="_blank"><img src={project_Compost04} /></a></li>
       </ul>
-      <h3>Design</h3>
+      <h4>Design</h4>
       <p className='margin-bottom'>After the part of research and planning, following the gui test applied by de UI team, we start to do our mid-fidelity wireframes.</p>
       <div className='images centered margin-bottom'>
         <a href={project_Compost05} target="_blank"><img src={project_Compost05} /></a>

@@ -10,7 +10,7 @@ export const Yandeh = () => (
   <div className='work'>
     <header>
       <h1>Yandeh</h1>
-      <h2>Application</h2>
+      <h2>Design System</h2>
       <p>My role: Product Designer</p>
       <p>Responsibilities: Style guide, mid and high fidelity prototypes.</p>
     </header>
@@ -30,10 +30,11 @@ export const Yandeh = () => (
       <h4>Design</h4>
       <p className='margin-bottom'>To create a concise Design System, I based all the components on the Branding color, typography, shapes and spaces.</p>
     </main>
-    <div className='images centered'>
       <a href={project_yandeh01} target="_blank"><img src={project_yandeh01} /></a>
-      <a href={project_yandeh02} target="_blank"><img src={project_yandeh02} /></a>
+      <h4  style={{ padding: "15px 25px" }}>Implemented library</h4>
+    <div className='images centered'>
       <ul>
+      <a href={project_yandeh02} target="_blank"><img src={project_yandeh02} /></a>
         <li><a href={project_yandeh03} target="_blank"><img src={project_yandeh03} /></a></li>
         <li><a href={project_yandeh04} target="_blank"><img src={project_yandeh04} /></a></li>
       </ul>

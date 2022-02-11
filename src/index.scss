@@ -107,14 +107,14 @@ h5 {
 
 p {
   font-family: var(--font-family-termina);
-  font-size: var(--font-size-25);
+  font-size: var(--font-size-20);
   color: var(--ffffff);
   font-style: var(--font-style-normal);
   font-weight: var(--font-weight-300);
   line-height: var(--line-spacing-37-5);
   letter-spacing: var(--character-spacing-0);
   @media only screen and (max-width: 620px) {
-    font-size: var(--font-size-20);
+    font-size: 16px !important;
   }
 }
 
@@ -125,7 +125,9 @@ img {
 }
 
 .overflow-hidden {
-  overflow: hidden;
+  @media only screen and (max-width: 620px) {
+    overflow: hidden;
+  }
 }
 
 .green-list {
