@@ -26,7 +26,7 @@ export const Yandeh = () => (
       <ul className='margin-bottom'>
         <li><p>Anvit is an instructor on Red Academy</p></li>
         <li><p>Has been composting for 4 years</p></li>
-        <li><p>Find community, read blogs and watch videos for instructions to begin</p></li>
+        <li><p>Find communities, read blogs and watch videos for instructions to begin</p></li>
         <li><p>Change shopping patterns to achieve zero waste</p></li>
       </ul>
       <h5>Interview 02</h5>
@@ -47,7 +47,7 @@ export const Yandeh = () => (
         <li><a href={project_Compost04} target="_blank"><img src={project_Compost04} /></a></li>
       </ul>
       <h4>Design</h4>
-      <p className='margin-bottom'>After the part of research and planning, following the gui test applied by de UI team, we start to do our mid-fidelity wireframes.</p>
+      <p className='margin-bottom'>After the part of research and planning, following the gui test applied by the UI team, we start to do our mid-fidelity wireframes.</p>
       <div className='images centered margin-bottom'>
         <a href={project_Compost05} target="_blank"><img src={project_Compost05} /></a>
         <a href={project_Compost06} target="_blank"><img src={project_Compost06} /></a>

@@ -18,7 +18,7 @@ export const Yandeh = () => (
       <h4>About</h4>
       <p className='margin-bottom'>Yandeh is a B2B model company that focuses on the improvement of the relationship between retails and providers. I worked as a freelance contractor to help them to create a better e-commerce platform for their users, building a complex Design System that should work with all their products, to standardize and improve the development work.</p>
       <h4>Planning</h4>
-      <p className='margin-bottom'>To start a develop a design system I had to know all products, applications and dashboards were being used (internal and external). With this data in hands, I created a list of all possible components would be necessary for this library to supply the demand. My steps were:</p>
+      <p className='margin-bottom'>To start to develop a design system I had to know all products, applications and dashboards were being used (internal and external). With this data in hands, I created a list of all possible components that would be necessary for this library to supply the demand. My steps were:</p>
       <ol className='green-list'>
         <li><p>List all existent components</p></li>
         <li><p>Research on other Design Systems</p></li>

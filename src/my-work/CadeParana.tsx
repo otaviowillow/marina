@@ -1,9 +1,10 @@
 import ArrowBack from '../ArrowBack'
-import cadeparana01 from '../public/Marista/project-Cadeparana01.png'
+
 import cadeparana02 from '../public/Marista/project-Cadeparana02.png'
 import cadeparana03 from '../public/Marista/project-Cadeparana03.png'
 import cadeparana04 from '../public/Marista/project-Cadeparana04.png'
 import cadeparana05 from '../public/Marista/project-Cadeparana05.jpg'
+import cadeparana06 from '../public/Marista/project-Cadeparana06.png'
 
 export const CadeParana = () => (
   <div className='work'>
@@ -29,7 +30,8 @@ export const CadeParana = () => (
       <h4>Design</h4>
       <p className='margin-bottom'>In this phase I started to create the UI of the screens based in the colours, typography and the branding previously provided by the client.</p>
     </main>
-    <img src={cadeparana05} />
+    <img src={cadeparana05} className='margin-bottom' />
+    <img src={cadeparana06} />
     <ArrowBack />
   </div>
 )

@@ -19,13 +19,13 @@ export const Tcp = () => (
     </header>
     <main>
       <h4>About</h4>
-      <p className='margin-bottom'>The Paranaguá Container Terminal (TCP) moves an average of 1240 containers per day. In 2018 there were 724 ships operating. The port has been modernized in recent years and most of the operations are now digital. The fast growth of information available on the TCP Customer Application made usability, information architecture, and user experience to be set aside. The first challenge was understanding how the system works in real-time with several numbers of processes and user flows, improving the user experience for almost 4.200 clients with 100 accesses per minute. Dealing with this, another big issue was to change the culture of their development team, because the developers didn’t know their user’s needs and that made they built a non-user friendly system.</p>
+      <p className='margin-bottom'>The Paranaguá Container Terminal (TCP) moves an average of 1240 containers per day. In 2018 there were 724 ships operating. The port has been modernized in recent years and most of the operations are now digital. The fast growth of information available on the TCP Customer Application made usability, information architecture, and user experience to be set aside. The first challenge was understanding how the system works in real-time with several numbers of processes and user flows, improving the user experience for almost 4.200 clients with 100 accesses per minute. Dealing with this, another big issue was to change the culture of their development team, because the developers didn’t know their user’s needs and that made they build a non-user friendly system.</p>
       <h4>Research</h4>
-      <p className='margin-bottom'>The TCP system has an average of 100 user accesses per minute as I said before and an infinity of possible user flows. So, the question was: “How can I start it?” My first step was analyzing their Google Analytics page, at least to see how these accesses working, the profiles, permissions, and overall numbers. After this part, I started to contact real users for a quick interview and send them a survey.</p>
+      <p className='margin-bottom'>The TCP system has an average of 100 user accesses per minute as I said before and an infinity of possible user flows. So, the question was: “How can I begin?” My first step was analyzing their Google Analytics page, at least to see how these accesses working, the profiles, permissions, and overall numbers. After this part, I started to contact real users for a quick interview and send them a survey.</p>
       <h5>Pain Points:</h5>
       <ul className='margin-bottom'>
         <li><p>- Too many screens to complete the same task</p></li>
-        <li><p>- User flows totally broken or confused</p></li>
+        <li><p>- User flows totally broken or confusing</p></li>
         <li><p>- The users didn’t receive any feedback about the processes and sometimes they had to call Customer Service.</p></li>
       </ul>
       <h4>Planning</h4>
@@ -39,7 +39,7 @@ export const Tcp = () => (
         <li><a href={project_TCP06} target="_blank"><img src={project_TCP06} /></a></li>
       </ul>
       <h4>User Testing</h4>
-      <p className='margin-bottom'>After the part of research and planning, I started to do the wireframes and de mid-fi prototypes. We selected six companies to start to test our beta version of the system. Subsequently the period of tests and improvements (3 months), we delivered the first version of the new feature with a new style guide.</p>
+      <p className='margin-bottom'>After the part of research and planning, I started to do the wireframes and mid-fi prototypes. We selected six companies to start to test our beta version of the system. Subsequently the period of tests and improvements (3 months), we delivered the first version of the new feature with a new style guide.</p>
       <iframe src="https://player.vimeo.com/video/394276391?h=c752df8df7" width="640" height="361" allow="autoplay; fullscreen; picture-in-picture" />
       <div className='margin-bottom' />
       <h4>User Interface</h4>
