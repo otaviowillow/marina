@@ -6,6 +6,7 @@ import project_Compost04 from '../public/compost/project_Compost04.png'
 import project_Compost05 from '../public/compost/project_Compost05.png'
 import project_Compost06 from '../public/compost/project_Compost06.png'
 import project_Compost07 from '../public/compost/project_Compost07.jpg'
+import project_Compost08 from '../public/compost/project_Compost08.png'
 
 export const Yandeh = () => (
   <div className='work'>
@@ -53,7 +54,8 @@ export const Yandeh = () => (
         <a href={project_Compost06} target="_blank"><img src={project_Compost06} /></a>
       </div>
     </main>
-    <img src={project_Compost07} />
+    <img src={project_Compost07} className='margin-bottom' />
+    <img src={project_Compost08} />
     <ArrowBack />
   </div>
 )

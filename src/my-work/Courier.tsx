@@ -2,6 +2,7 @@ import ArrowBack from '../ArrowBack'
 import project_courier01 from '../public/Courier/project_courier01.jpg'
 import project_courier02 from '../public/Courier/project_courier02.jpg'
 import project_courier03 from '../public/Courier/project_courier03.png'
+import project_courier04 from '../public/Courier/project_courier04.png'
 
 export const Courier = () => (
   <div className='work'>
@@ -22,6 +23,7 @@ export const Courier = () => (
       <h4>Design</h4>
       <p className='margin-bottom'>In the next step of the project, I initiated the design of the screens. You can see the final prototype here.</p>
     </main>
+    <a href={project_courier04} target="_blank"><img src={project_courier04} /></a>
     <a href={project_courier02} target="_blank"><img src={project_courier02} /></a>
     <a href={project_courier03} target="_blank"><img src={project_courier03} /></a>
     <ArrowBack />

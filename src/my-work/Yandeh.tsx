@@ -2,8 +2,7 @@ import './work.scss'
 
 import project_yandeh01 from '../public/Yandeh/project_yandeh01.png'
 import project_yandeh02 from '../public/Yandeh/project_yandeh02.png'
-import project_yandeh03 from '../public/Yandeh/project_yandeh03.png'
-import project_yandeh04 from '../public/Yandeh/project_yandeh04.png'
+import project_yandeh06 from '../public/Yandeh/project_yandeh06.png'
 import ArrowBack from '../ArrowBack'
 
 export const Yandeh = () => (
@@ -34,11 +33,12 @@ export const Yandeh = () => (
       <h4  style={{ padding: "15px 25px" }}>Implemented library</h4>
     <div className='images centered'>
       <ul>
-      <a href={project_yandeh02} target="_blank"><img src={project_yandeh02} /></a>
-        <li><a href={project_yandeh03} target="_blank"><img src={project_yandeh03} /></a></li>
-        <li><a href={project_yandeh04} target="_blank"><img src={project_yandeh04} /></a></li>
+        <li><a href={project_yandeh02} target="_blank"><img src={project_yandeh02} /></a></li>
+        {/* <li><a href={project_yandeh03} target="_blank"><img src={project_yandeh03} /></a></li>
+        <li><a href={project_yandeh04} target="_blank"><img src={project_yandeh04} /></a></li> */}
       </ul>
     </div>
+    <a href={project_yandeh06} target="_blank"><img src={project_yandeh06} /></a>
     <ArrowBack />
   </div>
 )
